@@ -1,0 +1,53 @@
+body{
+	background: url('background1.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100vw 100vh;
+}
+h1{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+button{
+	margin: 10px;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	width: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 2px 3px 2px black;
+}
+#increment-btn{
+	color: white;
+	background-color: #000;
+	transition: color 1s,background-color 1s;
+}
+#save-btn{
+	color: white;
+	background-color: green;
+	transition: color 1s,background-color 1s;
+}
+#increment-btn:hover{
+	background-color: transparent;
+	color: #000;
+}
+#save-btn:hover{
+	background-color: transparent;
+	color: #000;
+}
+#reset-btn:hover{
+	background-color: red;
+	color: #fff;
+}
